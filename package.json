@@ -5,14 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "NODE_OPTIONS='--experimental-vm-modules --no-warnings' jest --watchAll"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jwcbmat/e2e-node-test.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "johnathanbruns",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jwcbmat/e2e-node-test/issues"
