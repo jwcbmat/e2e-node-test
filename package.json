@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/jwcbmat/e2e-node-test/issues"
   },
-  "homepage": "https://github.com/jwcbmat/e2e-node-test#readme"
+  "homepage": "https://github.com/jwcbmat/e2e-node-test#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }

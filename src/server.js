@@ -18,8 +18,11 @@ async function handler(request, response) {
     if (method === 'POST') {
         const body = JSON.parse(await once(request, 'data'));
         const id = randomUUID();
+        Database.set(id, body);
         console.log('recebido', body);
-        return respondJSON({ ok: 1 }, response)
+        return respondJSON({
+            ok: 1
+        }, response)
     };
 
     if (method === 'DELETE') {
