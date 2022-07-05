@@ -20,6 +20,6 @@
   "homepage": "https://github.com/jwcbmat/e2e-node-test#readme",
   "devDependencies": {
     "jest": "28.1.2",
-    "nodemon": "2.0.15"
+    "nodemon": "2.0.19"
   }
 }
